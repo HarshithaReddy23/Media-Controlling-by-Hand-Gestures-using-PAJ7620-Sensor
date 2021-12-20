@@ -1,0 +1,48 @@
+For Media Controlling
+
+Gesture....Function
+FORWARD Mute/Unmute
+BACKWARD Mute/Unmute
+LEFT Go to next song
+RIGHT Go to previous song
+CLOCKWISE Alter volume
+ANTI- CLOCKWISE Alter volume
+WAVE STOP MEDIA PLAYER
+UP Play/pause
+DOWN Play/pause
+
+For Video Streaming:
+
+Gesture....Function
+FORWARD Mute/Unmute
+BACKWARD Mute/Unmute
+LEFT Decrease speed of the video
+RIGHT Increase speed of the video
+CLOCKWISE Alter volume
+ANTI- CLOCKWISE Alter volume 
+WAVE STOP VIDEO PLAYER
+UP Play/pause
+DOWN Play/pause
+
+
+By learning the different types of keystrokes from HID library of Nicohood, we were able to control the media and video. Even in the video controller module, we can change the following keystrokes “MEDIA_FAST_FORWARD and “MEDIA_REWIND” into “MEDIA_NEXT” and “MEDIA_PREVIOUS” of
+“GES_RIGHT_FLAG” and “GES_LEFT_FLAG” gestures respectively to control
+the video playlist itself. For example, Controlling a playlist in YouTube. The code
+which we implemented under video can alter the speed, by making the said change
+above, we can control the playlist of videos too. So we can change the keystrokes
+to the particular gestures on our wish. So the library plays an important part in the
+project.
+
+
+
+
+Conclusion and Future Developments
+
+This media controller would be useful instead of the traditional controlling. Pasting
+the breadboard with a standing components like above the speaker or any
+cardboard would give one to make rich recognizing gestures for controlling.
+Future Development: PAJ7620 works for only short range. We can use that to
+control media in laptop or PC, but we cannot use this short range sensor for TV,
+which is at a great distance. So for controlling media in TV, a gesture recognizing
+sensor which can capture at great distance must be used and the keystrokes must be
+checked and learned for each and different devices
