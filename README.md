@@ -1,4 +1,4 @@
-# Media-Controlling-with-Hand-Gestures-using-PAJ7620-Sensor
+# Media-Controlling-using-Hand-Gestures-with-PAJ7620-Sensor
 
 1.1 Background (System Study Details in brief)
 The system with more comfort factor that includes the operation of media control
